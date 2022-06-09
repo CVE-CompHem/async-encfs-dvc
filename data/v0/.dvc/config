@@ -1,0 +1,7 @@
+[core]
+    analytics = false
+    remote = castor
+['remote "castor"']
+    url = s3://test-castor-dvc
+    endpointurl = https://object.cscs.ch
+    profile = c30
